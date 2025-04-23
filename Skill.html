@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skills & Resume</title>
+    <link rel= "stylesheet"  href="style.css">
+    <link rel="icon" href="favicon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #034C53;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .resume-link {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #493628;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+   
+        }
+        .resume-section{
+            text-align: center;
+        }
+        .resume-link:hover {
+            background-color: #0056b3;
+        }
+
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: aqua;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            margin-top: 40px;
+        }
+
+        .skill-bar {
+            background: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+            text-align: left;
+            padding: 5px;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 30px;
+            background: aqua;
+            text-align: center;
+            line-height: 30px;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .html { width: 95%; }
+        .css { width: 95%; }
+        .js { width: 80%; }
+        .react { width: 80%; }
+        .python { width: 70%; }
+        .java { width: 70%; }
+        .cpp { width: 70%; }
+        .navbar a:hover {
+            color: rgb(0, 8, 255);
+        }
+        .navbar a.active {
+            color: rgb(0, 8, 255); 
+        }
+
+</style>
+</head>
+<body>
+    <header class="header">
+        <a href="#"  class="logo">Yeabsra</a>
+      <nav class="navbar">
+        <a href="indexx.html">Home</a>
+        <a  href="About.html">About</a>
+        <a href="Project.html" >Project</a>
+        <a href="Skill.html" class="active">Skill</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+      </header>
+    <div class="container skills">
+        <h1>My Skills</h1>
+        
+        <div class="skill-bar"><span class="html">HTML - 95%</span></div>
+        <div class="skill-bar"><span class="css">CSS - 95%</span></div>
+        <div class="skill-bar"><span class="js">JavaScript - 80%</span></div>
+        <div class="skill-bar"><span class="react">React - 80%</span></div>
+        <div class="skill-bar"><span class="python">Python - 70%</span></div>
+        <div class="skill-bar"><span class="java">Java - 70%</span></div>
+        <div class="skill-bar"><span class="cpp">C++ - 70%</span></div>
+
+    </div>
+    <a href="resum.pdf" class="resume-link" download>Download Resume</a>
+
+</body>
+</html>
